@@ -67,7 +67,7 @@
         document.getElementById('summary').innerHTML = summary;
       })
       .catch(err => {
-        document.getElementById('summary').innerText = 'Failed to load summary.';
+        document.getElementById('summary').innerText = err;
         console.error(err);
       });
   </script>
